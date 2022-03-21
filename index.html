@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <title>¿Lloverá?</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>   Aplicación web que muestra si va a llover en las próximas 8 horas en tu
+      localización actual</h1>
+    <br>
+    <button onclick="javascript:getLocation()">¿Lloverá?</button>
+    <br>
+    <br>
+    <br>
+    <div id="prevision"></div>
+    <div id="lluvia"></div>
+
+    
+		<div class="container">
+			<div class="weather-sun">
+				<div class="sun">
+					<div class="rays"></div>
+					<div class="rays"></div>
+					<div class="rays"></div>
+					<div class="rays"></div>
+				</div>
+			</div>
+			<div class="weather-cloud">
+				<div class="cloud"></div>
+				<div class="cloud"></div>
+			</div>
+			<div class="weather-snow">
+				<div class="snow">
+					<div class="f"></div>
+				</div>
+			</div>
+			<div class="weather-cloudAndSun">
+				<div class="cloud"></div>
+				<div class="sun">
+					<div class="rays"></div>
+					<div class="rays"></div>
+					<div class="rays"></div>
+					<div class="rays"></div>
+				</div>
+			</div>
+			<div class="weather-rain">
+				<div class="cloud"></div>
+				<div class="rain"></div>
+				<div class="rain"></div>
+				<div class="rain"></div>
+				<div class="rain"></div>
+			</div>
+		</div>
+
+    <footer>
+      <p>Proyecto Hack A Boss. Ramón Figols Gorina y Daniel Núñez Jaramillo</p>
+    </footer>
+    <script async src="script.js"></script>
+  </body>
+</html>
